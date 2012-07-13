@@ -5,12 +5,12 @@ define(['gremlinjs'], function (gremlinjs) {
         },
         interests:["OUCH"],
         initialize:function () {
-            this.content.html("<h1>I'm watching you!</h1>");
+            this.content.html("<h1>I'm watching you Carl!</h1><p>scroll down and watch how <code>Carl.js</code> is loaded when the gremlin enters the viewport.</p>");
         },
         inform:function (interest, notificationData) {
             switch (interest) {
                 case "OUCH":
-                    this.content.html("poor boy");
+                    this.content.append("<p><strong>poor carl :(</strong></p>");
                     break;
                 default:
                     break;

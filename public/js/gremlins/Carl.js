@@ -7,10 +7,10 @@ define(['gremlinjs'], function (gremlinjs) {
             "click div.content h1" : "handleClick"
         },
         initialize : function () {
-            this.content.html("<h1>Hello World! (click me)</h1>");
+            this.content.html("<h1>Hi Lenny, can you hear me? (click me)</h1>");
         },
         handleClick : function () {
-            this.content.html("ouch");
+            this.content.html("<p>ouch, that hurts!</p><p>Scroll up to Lenny, you'll notice, that he received Carl's notification.</p>");
             this.chatter("OUCH");
         }
     });
