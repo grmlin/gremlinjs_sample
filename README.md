@@ -20,7 +20,7 @@ There is a `Cakefile` included to build the project. You'll need nodejs, npm and
 
 If the build succeeds, a new `build` directory appears with all the javascript sources minified.
 
-**Note that `main.js` includes everything it needs to work properly, `jquery` and `gremlinjs`.**
+**Note that `main.js` includes everything it needs to work properly, `jquery` and `gremlinjs`.**   
 **The gremlins are missing, as they are required at runtime. They are minified nevertheless and can be found inside the
 `gremlins` directory.**
 
