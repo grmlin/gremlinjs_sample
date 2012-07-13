@@ -1,1 +1,0 @@
-define(["gremlinjs"],function(e){var t=e.create("Buddy",{elements:{"div.content":"content"},interests:["OUCH"],initialize:function(){this.content.html("<h1>I'm watching you!</h1>")},inform:function(e,t){switch(e){case"OUCH":this.content.html("poor boy");break;default:}}});return t})
