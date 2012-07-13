@@ -11,6 +11,9 @@ All the code you're looking for can be found inside the `public` directory.
 To try it out for yourself, point the webservers root to the public folder and open the `index.html` with the browser of
 your choice.
 
+The `require.config({})` is part of the `index.html`. If you want to place it inside your `main.js` remember, that the
+building your project may  change the paths to your files.
+
 ## Build it
 
 There is a `Cakefile` included to build the project. You'll need nodejs, npm and coffeescript to use it.
