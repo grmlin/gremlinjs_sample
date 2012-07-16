@@ -1,7 +1,7 @@
 define(['gremlinjs'], function (gremlinjs) {
     var Buddy = gremlinjs.create("Buddy", {
         elements:{
-            "div.content":"content"
+            "content":"div.content"
         },
         interests:["OUCH"],
         initialize:function () {

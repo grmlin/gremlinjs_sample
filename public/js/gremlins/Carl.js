@@ -1,10 +1,10 @@
 define(['gremlinjs'], function (gremlinjs) {
     var HelloWorld = gremlinjs.create("HelloWorld", {
         elements : {
-            "div.content" : "content"
+            "content" : "div.content"
         },
         events : {
-            "click div.content h1" : "handleClick"
+            "handleClick" : "click div.content h1"
         },
         initialize : function () {
             this.content.html("<h1>Hi Lenny, can you hear me? (click me)</h1>");
