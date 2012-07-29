@@ -9,7 +9,7 @@ task 'build', 'Minifies JavaScript files for production use', ->
     optimize: "uglify"
     paths:
       "jquery": "jquery-1.7.1.min",
-      "gremlinjs": "gremlin-0.3.4.min"
+      "gremlinjs": "gremlin.min"
     modules: [{
       name: "main"
     }]
